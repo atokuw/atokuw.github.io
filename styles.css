@@ -33,13 +33,14 @@ p {
 
 #bio {
     display: inline-flex;
+    flex: auto;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 #synths {
     display: inline-flex;
-    width: 350px;
+    width: 40%;
 }
 
 .container {
