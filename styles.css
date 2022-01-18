@@ -32,15 +32,13 @@ p {
 }
 
 #bio {
-    display: inline-flex;
     flex: auto;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 #synths {
-    display: inline-flex;
-    width: 40%;
+    width: 100%;
 }
 
 .container {
