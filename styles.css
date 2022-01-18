@@ -1,0 +1,87 @@
+body {
+    font-family: "andale mono";
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+img {
+    padding: 10px;
+}
+
+#koto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+#bio {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#synths {
+    display: inline-flex;
+    width: 350px;
+}
+
+.container {
+    display: flex;
+    margin-top: 13px;
+}
+
+.contained {
+    flex: auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#noShows {
+    color: grey;
+}
+
+#shows {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.eventLink {
+    color: red;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+iframe {
+    margin-top: 10px;
+}
