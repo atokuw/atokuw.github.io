@@ -33,47 +33,9 @@
 
         <main>
             <div class="container">
-                <form>
-                    <p>
-                        <!-- Contact form to nowhere. -->
-                        <label for="name">name</label>
-                        <br>
-                        <input type="text" id="name" name="name" placeholder="required">
-                        <br>
-                        <label for="email">e-mail</label>
-                        <br>
-                        <input type="text" id="email" name="e-mail" placeholder="required">
-                        <br>
-                        <label for="msg">message</label>
-                        <br>
-                        <textarea id="msg" name="message" placeholder="required" style="height:200px"></textarea>
-                    </p>
-                </form>
-            </div>
-
-            <div class="container">
-                <button id="submit">submit</button>
-                <br>
-                <p id="reply"></p>
+                later...
             </div>
         </main>
 
     </body>
-
-    <script>
-        // When submit buttion is clicked
-        let submit = document.querySelector('#submit').addEventListener('click', function() {
-            let name = document.querySelector('#name');
-            let email = document.querySelector('#email');
-            let msg = document.querySelector('#msg');
-
-            // If any field is empty, prompt user to fill fields
-            if (!name.value || !email.value || !msg.value) {
-                document.querySelector('#reply').innerHTML = 'please fill all required fields'
-            } else {
-                document.querySelector('#reply').innerHTML = 'thank you for writing me'
-            }
-        });
-    </script>
-
 </html>
