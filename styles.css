@@ -1,10 +1,6 @@
 body {
-    font-family: "andale mono";
-}
-
-h1 {
-    margin-top: 30px;
-    text-align: center;
+    background-color: #f8f8ff;
+    font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
 }
 
 .nav-link {
@@ -40,20 +36,16 @@ p {
 #synths {
     width: 100%;
 }
-
+/* 
 .container {
     display: flex;
     margin-top: 13px;
-}
+} */
 
 .contained {
     flex: auto;
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: bold;
-}
 
 #noShows {
     color: grey;
@@ -83,4 +75,14 @@ button {
 
 iframe {
     margin-top: 10px;
+}
+
+/* new */
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
 }
