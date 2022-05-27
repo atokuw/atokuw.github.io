@@ -3,6 +3,22 @@ body {
     font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
 }
 
+#synths {
+    width: 100%;
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    color: grey;
+}
+
+#koto {
+    width: 60%;
+}
+
 .nav-link {
     color: black;
 }
@@ -11,78 +27,6 @@ body {
     color: red;
 }
 
-img {
-    padding: 10px;
-}
-
-#koto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-p {
-    font-size: 14px;
-    margin: 10px;
-}
-
-#bio {
-    flex: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#synths {
-    width: 100%;
-}
-/* 
-.container {
-    display: flex;
-    margin-top: 13px;
-} */
-
-.contained {
-    flex: auto;
-}
-
-
 #noShows {
     color: grey;
-}
-
-#shows {
-    font-size: 14px;
-    padding: 20px;
-}
-
-.eventLink {
-    color: red;
-}
-
-textarea {
-    width: 500px;
-    height: 200px;
-}
-
-input {
-    margin-bottom: 10px;
-}
-
-button {
-    margin: 10px;
-}
-
-iframe {
-    margin-top: 10px;
-}
-
-/* new */
-
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
 }
